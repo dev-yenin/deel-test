@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 24px;
+}
+
+.autocomplete {
+  width: 300px;
+  position: relative;
+}
+
+.autocomplete input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.autocomplete ul {
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  border: none;
+}
